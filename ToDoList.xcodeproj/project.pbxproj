@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A6B4B792B3053A800A70985 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B782B3053A800A70985 /* .gitignore */; };
+		2A6B4B802B30540000A70985 /* MainScreenEditMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B7C2B3053FF00A70985 /* MainScreenEditMode.png */; };
+		2A6B4B812B30540000A70985 /* EditTask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B7D2B3053FF00A70985 /* EditTask.png */; };
+		2A6B4B822B30540000A70985 /* CreateTask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B7E2B3053FF00A70985 /* CreateTask.png */; };
+		2A6B4B832B30540000A70985 /* MainScreenViewMode.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A6B4B7F2B30540000A70985 /* MainScreenViewMode.png */; };
 		2ACC0D172A078ECA00321DA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC0D162A078ECA00321DA1 /* AppDelegate.swift */; };
 		2ACC0D192A078ECA00321DA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ACC0D182A078ECA00321DA1 /* SceneDelegate.swift */; };
 		2ACC0D1E2A078ECA00321DA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2ACC0D1C2A078ECA00321DA1 /* Main.storyboard */; };
@@ -19,6 +24,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A6B4B782B3053A800A70985 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		2A6B4B7A2B3053CE00A70985 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2A6B4B7C2B3053FF00A70985 /* MainScreenEditMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainScreenEditMode.png; sourceTree = "<group>"; };
+		2A6B4B7D2B3053FF00A70985 /* EditTask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EditTask.png; sourceTree = "<group>"; };
+		2A6B4B7E2B3053FF00A70985 /* CreateTask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CreateTask.png; sourceTree = "<group>"; };
+		2A6B4B7F2B30540000A70985 /* MainScreenViewMode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MainScreenViewMode.png; sourceTree = "<group>"; };
 		2ACC0D132A078ECA00321DA1 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ACC0D162A078ECA00321DA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2ACC0D182A078ECA00321DA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,9 +54,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A6B4B7B2B3053D800A70985 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				2A6B4B7F2B30540000A70985 /* MainScreenViewMode.png */,
+				2A6B4B7C2B3053FF00A70985 /* MainScreenEditMode.png */,
+				2A6B4B7E2B3053FF00A70985 /* CreateTask.png */,
+				2A6B4B7D2B3053FF00A70985 /* EditTask.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
 		2ACC0D0A2A078ECA00321DA1 = {
 			isa = PBXGroup;
 			children = (
+				2A6B4B7B2B3053D800A70985 /* Images */,
+				2A6B4B7A2B3053CE00A70985 /* README.md */,
+				2A6B4B782B3053A800A70985 /* .gitignore */,
 				2ACC0D152A078ECA00321DA1 /* ToDoList */,
 				2ACC0D142A078ECA00321DA1 /* Products */,
 			);
@@ -134,9 +159,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A6B4B792B3053A800A70985 /* .gitignore in Resources */,
+				2A6B4B802B30540000A70985 /* MainScreenEditMode.png in Resources */,
+				2A6B4B812B30540000A70985 /* EditTask.png in Resources */,
 				2ACC0D232A078ECB00321DA1 /* LaunchScreen.storyboard in Resources */,
+				2A6B4B832B30540000A70985 /* MainScreenViewMode.png in Resources */,
 				2ACC0D202A078ECB00321DA1 /* Assets.xcassets in Resources */,
 				2ACC0D1E2A078ECA00321DA1 /* Main.storyboard in Resources */,
+				2A6B4B822B30540000A70985 /* CreateTask.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
